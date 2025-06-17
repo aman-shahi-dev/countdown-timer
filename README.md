@@ -56,4 +56,6 @@ cd countdown-timer
 
 🤝 Contributing<br>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+---
+
 🙋‍♂️ Author<br>Made with ❤️ by Aman Shahi
