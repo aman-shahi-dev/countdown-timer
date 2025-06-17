@@ -54,11 +54,6 @@ cd countdown-timer
 
 ---
 
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+🤝 Contributing<br>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-📄 License
-This project is licensed under the MIT License.
-
-🙋‍♂️ Author
-Made with ❤️ by Aman Shahi
+🙋‍♂️ Author<br>Made with ❤️ by Aman Shahi
