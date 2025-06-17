@@ -1,4 +1,4 @@
-# ⏱ Countdown Timer Web App
+# ⏱ Countdown Timer 
 
 A simple and stylish countdown timer made using **HTML**, **CSS**, and **JavaScript**. Enter a time in seconds, and watch the countdown in action!
 
