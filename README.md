@@ -52,6 +52,8 @@ cd countdown-timer
 ```
 👉 Now just open index.html in your browser manually (double-click or drag it into the browser)
 
+---
+
 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
