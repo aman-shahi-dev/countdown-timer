@@ -1,0 +1,76 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #030202;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+
+.container{
+    width: 95%;
+    height: 95%;
+    background-color: rgb(110, 108, 108);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#inputTime{
+    width: 20%;
+    height: 5%;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+}
+
+#inputTime:focus{
+    border: none;
+    outline: none;
+}
+
+#result{
+    width: 16%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    z-index: -1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: white;
+}
