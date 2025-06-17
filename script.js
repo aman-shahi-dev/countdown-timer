@@ -6,6 +6,10 @@ const result = document.getElementById('result')
 
 function startTimer(){
 
+    result.innerText = `Clock's ticking ⏰`;
+    result.style.fontSize='1.6rem'
+    result.style.zIndex = '1111';
+
     let valueInSeconds = Number(inputTime.value)
     
     if ( isNaN(valueInSeconds) || !Number.isFinite(valueInSeconds) || inputTime.value.trim() === "" ) {
@@ -27,6 +31,7 @@ function startTimer(){
         valueInSeconds-=1
 
         result.style.zIndex = '1111';
+        result.style.fontSize = '5rem'
         result.innerText = valueInSeconds
 
         if ( valueInSeconds <=0 ){
