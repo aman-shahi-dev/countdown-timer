@@ -10,8 +10,15 @@
     <div class="container">
         <h1>Countdown Timer</h1>
         <input type="number" placeholder="Enter time in seconds" id="inputTime">
-        <button id="startBtn">Start Countdown</button>
+        <div class="btnGroup">
+            <button id="countdownStartBtn">Start Countdown</button>
+            <button id="startBtn">Start</button>
+            <button id="stopBtn">Stop</button>
+            <button id="resetBtn">Reset</button>
+        </div>
         <div id="result"></div>
+        <audio id="ticking" src="ticking.mp3" preload="auto"></audio>
+        <audio id="stop" src="stop.mp3" preload="auto"></audio>
     </div>
 </body>
 <script src="./script.js"></script>
