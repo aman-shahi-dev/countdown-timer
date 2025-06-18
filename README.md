@@ -12,6 +12,7 @@ A simple and stylish countdown timer made using **HTML**, **CSS**, and **JavaScr
 
 - ✅ Input validation (no negative or empty values)
 - ⏳ Smooth countdown with real-time updates
+- 🔊 Ticking sound while timer runs, alert sound when time is up
 - 🎯 Stylish circular timer display
 - 📱 Fully responsive layout
 - ⚠️ Clear error messages for invalid input
